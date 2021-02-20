@@ -13,10 +13,7 @@ public class Calculator {
                 result = a - b;
                 break;
             case "/":
-                if (a % b == 0)
                     result = a / b;
-                else
-                    result = 0;
                 break;
             case "*":
                 result = a * b;
